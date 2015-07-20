@@ -14,7 +14,7 @@ SET vLogName=CopyProjectsLog
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Android" "Y:\Programming\Current\Android" %vLogName%
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Arduino" "Y:\Programming\Current\Arduino" %vLogName%
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Raspberry Pi" "Y:\Programming\Current\Raspberry Pi" %vLogName%
-CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Scripts" "Y:\Programming\Current\Scripts" %vLogName%
+CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Domain-Scripts" "Y:\Programming\Current\Domain-Scripts" %vLogName%
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Visual Studio 2005\Projects" "Y:\Programming\Current\Visual Studio 2005\Projects" %vLogName%
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Visual Studio 2008\Projects" "Y:\Programming\Current\Visual Studio 2008\Projects" %vLogName%
 CALL %vCopyName% "C:\Users\Gareth.OLYMPUS\Documents\Visual Studio 2013\Projects" "Y:\Programming\Current\Visual Studio 2008\Projects" %vLogName%
