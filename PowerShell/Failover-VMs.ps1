@@ -1,15 +1,21 @@
 ﻿<#
- .SYNOPSIS
- Performs a planned failover of the VMs from the supplied list of hosts.
- .DESCRIPTION
- Failsover all VMs from the current primary host to the replica. The primary and replica are defined by the individual virtual machine replication settings.
- .PARAMETER Hosts
- The name of the VM Host(s) to retrieve the VM list from. Default: HERA, POSEIDON
- .EXAMPLE
- Failover-VMs -Hosts "VMHost1", "VMHost2"
- .LINK
+.SYNOPSIS
+    Performs a planned failover of the VMs from the supplied list of hosts.
+.DESCRIPTION
+    Fails over all VMs from the current primary host to the replica. The primary and replica are defined by the individual virtual machine replication settings.
+.NOTES
+    File Name      : Failover-VMs.ps1
+    Author         : Gareth Philpott
+    Date           : 13/05/2015
+    Prerequisite   : PowerShell V2 over Vista and upper.
+    Copyright 2015 - Gareth Philpott
+.EXAMPLE
+    Failover-VMs -Hosts "VMHost1", "VMHost2"
+.LINK
  
- #>
+.PARAMETER Hosts
+    The name of the VM Host(s) to retrieve the VM list from. Default: HERA, POSEIDON
+#>
 
 param(
  $Hosts = ("HERA", "POSEIDON")
