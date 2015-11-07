@@ -1,4 +1,21 @@
 <#
+.SYNOPSIS
+    Performs a reboot of the local machine.
+.DESCRIPTION
+    Reboots the local machine.
+.NOTES
+    File Name      : Reboot.ps1
+    Author         : Gareth Philpott
+    Date           : 26/10/2015
+    Prerequisite   : PowerShell V2 over Vista and upper.
+    Copyright 2015 - Gareth Philpott
+.EXAMPLE
+    Reboot
+.LINK
+
+#>
+
+<#
 
 Create a shortcut with the following Target:
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -File {FileName}
