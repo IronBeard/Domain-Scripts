@@ -18,7 +18,7 @@
 #>
 
 param(
- $Hosts = ("HERA", "POSEIDON")
+ $Hosts = ("ZEUS", "HERA")
 )
 
 Write-Output 'Getting VMs from the following Hosts.'
