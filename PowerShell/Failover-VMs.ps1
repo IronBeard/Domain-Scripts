@@ -14,7 +14,7 @@
 .LINK
  
 .PARAMETER Hosts
-    The name of the VM Host(s) to retrieve the VM list from. Default: HERA, POSEIDON
+    The name of the VM Host(s) to retrieve the VM list from. Default: ZEUS, HERA
 #>
 
 param(
