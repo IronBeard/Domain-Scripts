@@ -41,6 +41,7 @@ $tailRecursion = {
         Remove-Item -Force -LiteralPath $Path
     }
 }
+
 # Testing 
 Get-ChildItem $Source -Filter $filter -Recurse | %{Write-Host (Split-Path -Path ($_.DirectoryName) -Leaf)+$_.Extension}
 
